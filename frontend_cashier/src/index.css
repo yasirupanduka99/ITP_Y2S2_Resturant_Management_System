@@ -1,0 +1,941 @@
+body {
+  background-color: #EBEBEB;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------Start of the CSS For Yasiru Panduka's Part.js*/
+
+/*-------------------------------------------Start of the CSS For NavBa------------------------------------------*/
+.container-fluid{
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #707070;
+}
+
+
+.d-flex{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 570px;
+}
+
+#searchNav{
+  background-color: #E3E3E3;
+  color: #707070;
+  font-weight: 700;
+  border-color: #707070;
+}
+
+#searchBtnNav{
+  background-color: #707070;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+/*-------------------------------------------End of the CSS For NavBa------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------Start of the CSS For SearchBar------------------------------------------*/
+.searchContainer{
+  height: max-content;
+  background-color: none;
+  margin-top: 54px;
+}
+
+.searchBox{
+  width: 1120px;
+  background-color: #EBEBEB;
+  display: block;
+  margin-left: 230px;
+  margin-right: auto;
+  height: 100px;
+  padding-top: 50px;
+  position: fixed;
+}
+
+#searchNav{
+  height: 50px;
+  background-color: white;
+}
+/*-------------------------------------------End of the CSS For SearchBar---------------------------------------------*/
+
+
+
+
+/*-------------------------------------------Start of the CSS For cashier home container------------------------------------------*/
+.cashierContainer{
+  padding-bottom: 70px;
+  padding-top: 150px;
+  background-color: none;
+}
+
+.cashierItemBox{
+  width: 1120px;
+  background-color: #e4e4e4;
+  margin-left: 230px;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-left: 0px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+.detail_box{
+  width: 230px;
+  height: 460px;
+  background-color: white;
+  display: inline-table;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+.detail_box h1{
+  font-size: 18px;
+  font-family: Open Sans ExtraBold;
+  font-weight: 700;
+}
+
+.detail_box h2{
+  font-family: Open Sans SemiBold;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+
+.ImgContainerH{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: inherit;
+  height: 280px;
+}
+
+.detailBox{
+  background-color: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#cartBtn_Container{
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cartBtn{
+  background-color: rgb(56, 170, 0, 0.73);
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#cartBtn img{
+  width: 20px;
+}
+
+#cartBtn:hover{
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#price_And_CartBtn{
+  display: block;
+  background-color: none;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------------------End of the CSS For cashier home container------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------Start of the CSS For ADD REGULAR CUSTOMER button-----------------------------------*/
+
+.RegularCustomerBtn{
+  width: max-content;
+  height: max-content;
+  position: fixed;
+  top: 120px;
+  right: 25px;
+}
+
+.RegularCustomerBtn button{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border: solid;
+  border-color: #c9c9c9;
+  background-color: #FFFFFF;
+  font-size: 15px;
+  font-family: Open Sans SemiBold;
+}
+
+.RegularCustomerBtn button:hover{
+  background-color: #d8d8d8;
+}
+
+.RegularCustomerBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+/*-------------------------------------------End of the CSS For ADD REGULAR CUSTOMER button-----------------------------------*/
+
+
+
+
+
+
+
+
+/*-------------------------------------------Start of the CSS For Category container------------------------------------------*/
+
+.categoryBar_Container{
+  background-color: #FFFFFF;
+  width: 100px;
+  height: 100%;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+}
+
+.categoryDetails{
+  background-color: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  width: 70px;
+  height: 65%;
+}
+
+.categoryDetails button{
+  cursor: pointer;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  background-color: none;
+}
+
+.categoryDetails img{
+  width: 100%;
+  height: 100%;
+}
+
+.categoryDetails button:hover{
+  background-color: #d8d8d8;
+}
+
+.categoryDetails button:active{
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.categoryDetails h1{
+  font-family: Open Sans SemiBold;
+  font-size: 15px;
+  text-align: center;
+}
+/*-------------------------------------------End of the CSS For Category container------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------Start of the CSS For Sub-Category container------------------------------------------*/
+
+.subContainer{
+  background-color: #FFFFFF;
+  width: 0;
+  height: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 90px;
+  left: 110px;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer a{
+  right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.subContainer a:hover{
+  color: #f1f1f1;
+}
+
+.subContainer .closebtn{
+  position: absolute;
+  top: 0;
+  margin-top: 10px;
+  margin-left:60px;
+  float: right;
+  font-size: 20px;
+  font-weight: 700;
+  width: max-content;
+  height: max-content;
+}
+
+.subContainer button{
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 65px;
+  border: none;
+  border-radius: 10px;
+  background-color: none;
+  margin-top: 50px;
+}
+
+.subContainer img{
+  width: 100%;
+  height: 100%;
+}
+
+.subContainer button:hover{
+  background-color: #d8d8d8;
+}
+
+.subContainer button:active{
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+.subContainer h1{
+  font-family: Open Sans SemiBold;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.containerBorder{
+  background-color: none;
+  width: 70px;
+  margin: 0 auto;
+}
+
+
+
+
+/*-------------------------------------------End of the CSS For Sub-Category container------------------------------------------*/
+
+
+
+
+
+
+/*-------------------------------------------Start of the CSS For Cashier_Cart--------------------------------------------------*/
+
+.Cart_ContainerH{
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 650px;
+  position: fixed;
+  right: 25px;
+  top: 222px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Cart_ContainerH h1{
+  text-align: left;
+  font-weight: 700;
+  font-family: Open Sans ExtraBold;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cart_container_DataH{
+  background-color: none;
+  height: 80px;
+  border-radius: 10px;
+}
+
+#cartform{
+  background-color: none;
+  font-size: 15px;
+  margin-top: 40px;
+  height: max-content;
+}
+
+#cartform label{
+  margin-right: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+
+#cartform input{
+  float: right;
+  margin-right: 10px;
+  background-color: rgb(196, 196, 196);
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  height: 30px;
+  width: 250px;
+  font-weight: 700;
+}
+
+#TotalContainer{
+  background-color: #E1E1E1;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  width: 470px;
+  height: 270PX;
+  margin-left: 5px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#SubTotal{
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 450px;
+  margin-left: 10px;
+}
+
+#SubTotal h1{
+  font-size: 15px;
+  color: black;
+  margin-top: 7px;
+  margin-right: 100px;
+}
+
+#SubTotal input{
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: none;
+  color: Black;
+  width: 150px;
+  height: max-content;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#SubTota2{
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 450px;
+  margin-left: -7px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#SubTota2 h1{
+  font-size: 15px;
+  color: rgb(255, 30, 0);
+  margin-top: 7px;
+  margin-right: 100px;
+}
+
+#SubTota2 input{
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: none;
+  color: Black;
+  width: 150px;
+  height: max-content;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.CheckDisBtn{
+  background-color: rgb(255, 255, 255, 0);
+  border: none;
+}
+
+#checkDIS{
+  color: rgb(241, 165, 66);
+}
+
+#checkDIS:hover{
+  color: rgb(228, 143, 32);
+}
+
+#checkDIS:active{
+  color: rgb(202, 115, 0);
+}
+
+#SubTota3{
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  width: 450px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#SubTota3 h1{
+  font-size: 15px;
+  color: black;
+  margin-top: 7px;
+  margin-right: 130px;
+}
+
+#SubTota3 input{
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: none;
+  color: Black;
+  width: 150px;
+  height: max-content;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#CheckoutBtn button {
+  width: 100px;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #00a105;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  height: 50px;
+  width: 100%;
+}
+
+#CheckoutBtn button:hover{
+  background-color: #006d04;
+}
+
+#CheckoutBtn button:active{
+  background-color: #005703;
+}
+
+
+
+/*-------------------------------------------Start of the CSS For Cashier_Cart--------------------------------------------------*/
+
+
+
+
+
+
+ /*-------------------------------------------Start of the CSS For CashierFooter.js-----------------------------------------------------*/
+ .footer{
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #707070;
+}
+
+.footer .copyright{
+  background-color: none;
+  width: max-content;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .copyright h1{
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 15px;
+  color: #707070;
+}
+
+/*-------------------------------------------End of the CSS For CashierFooter.js-----------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------End of the CSS For Yasiru Panduka's Part.js*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------Start of the CSS For Denura Mudalige's Part.js*/
+
+
+ /*------------------------------CSS For addpage.js---------------------------------*/
+
+ .display{
+  width: 40%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ #adduser{
+  background-color: none;
+  padding-bottom: 61px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*------------------------------CSS For addpage.js---------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------End of the CSS For Denura Mudalige's Part.js*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------Start of the CSS For Harshana Rajapaksha's Part.js*/
+
+/* .CheckDisBtn{
+  background-color: #ffffff;
+  border: none;
+        color: white;
+        margin-top: 6px;
+        float: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        width: 40px;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+      
+      .CheckDisBtn:hover{
+        background-color: #ffffff;
+      }
+
+      #checkDIS{
+        color: rgb(241, 165, 66);
+      }
+      #checkDIS:hover{
+        color: rgb(255, 104, 16);
+      }
+
+
+      .Cart_ContainerH button{
+        display: block;
+        margin-top: 450px;
+        margin-left: auto;
+        margin-right: auto;
+
+      } */
+
+
+      /*-------------------------POPUP----------------------------*/
+.DiscountcontainerPopup .addDisPopcloseBtn button{
+  margin-right: 450px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgb(177, 177, 177);
+  color: rgb(255, 255, 255);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.DiscountcontainerPopup .addDisImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#pop{
+ /* background-color: red; */
+ height: 780px;
+}
+
+#formID{
+  /* background-color: red; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#selectDis{
+  color: red;
+  font-weight: 1000px;
+  /* background-color: red; */
+}
+
+.DiscountcontainerPopup .editDisImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DiscountcontainerPopup .addDisImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 365px;
+  height: 300px;
+  display: block;
+}
+
+.DiscountcontainerPopup .editDisImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 480px;
+  height: 270px;
+  
+}
+
+.DiscountcontainerPopup .addDisTitle{
+  font-weight: 1000;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+ #checkbtn{
+  background-color: #0094F6;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+  width: 180px;
+  margin-left: 30px;
+
+ }
+
+
+ #nextbtn{
+  background-color: #0094F6;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+  width: 180px;
+  margin-left: 50px;
+  margin-right: 0px;
+
+ }
+ 
+
+ .DiscountcontainerPopup #updateBtn{
+   width: 130px;
+  margin-left: 340px;
+   background-color: #0094F6;
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: 17px;
+ }
+
+
+/*-------------------------POPUP----------------------------*/
+
+      /*--------------------------------------------------------------------------------------End of the CSS For Harshana Rajapaksha's Part.js*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------Start of the CSS For Ravindu Induwara's Part.js*/
+
+      /*-------------------------Payment Add FORM---------------------------*/
+.PaymentContainerForm{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PaymentContainerForm input {
+  width: 170px;
+}
+
+.PaymentContainerForm label{
+  margin-top: 30px;
+}
+
+#cardExpire{
+  display: inline-flex;
+}
+
+#cardExpire input{
+  width: 80px;
+  margin-right: 30px;
+}
+
+#cardNum input{
+  width: 300px;
+}
+
+#PayCardNextBtn{
+  margin-top: 29px;
+}
+
+#PayCardNextBtn button {
+  width: 300px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.bgImg img {
+  width: 1920px;
+  height: 890px;
+
+}
+
+.bgImg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* .Form{
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+ */
+
+ #MainDivPayment{
+  background-color: black;
+  width: 100%;
+  position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+ .PaymentContainerFormMain{
+   background-color: rgb(27, 233, 0);
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin-top: 200px;
+  
+ }
+
+
+
+.PaymentContainerForm {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: px;
+    padding-bottom: 61px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+   
+ }
+
+ .PaymentContainerForm form{
+   background-color: none;
+  width: max-content;
+  padding-top: 20px;
+  margin-left: 200px;
+ }
+
+
+ 
+
+/*--------------------------Payment Add FORM-----------------------------*/
+
+/*--------------------------------------------------------------------------------------End of the CSS For Ravindu Induwara's Part.js*/

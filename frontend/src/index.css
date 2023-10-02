@@ -1,0 +1,3428 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #19224D;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* -----------------------------------------------------------------------Start of the Yasiru Panduka's CSS */
+
+/* ---------------------------------------------------------------------CSS For Developers*/
+
+#developersImgContainer{
+  float: right;
+  background-color: none;
+}
+
+#devImg{
+  width: 1576px;
+  height: 900px;
+}
+
+/*----------------------------------------------------------------------CSS For NavBar*/
+.container-fluid{
+  background-color: white;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: #707070;
+}
+
+
+.d-flex{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 570px;
+}
+
+#searchNav{
+  background-color: #E3E3E3;
+  color: #707070;
+  font-weight: 700;
+  border-color: #707070;
+}
+
+#searchBtnNav{
+  background-color: #707070;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+
+
+
+/*--------------------------------------------------------------------CSS For Home.js*/
+.containerFoodItem{
+  background-color: none;
+  height: max-content;
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+}
+
+#FoodItemPrintBtn{
+  margin-top: 112px;
+  float: right;
+  margin-right: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: max-content;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #585858;
+  border-radius: 5px;
+}
+
+#FoodItemPrintBtn:hover{
+  background-color: #2c2c2c;
+}
+
+#FoodItemPrintBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+#FoodItemPrintBtn img{
+  width: 35px;
+}
+
+#containerButtonBox{
+  background-color: none;
+  width: 1438px;
+  display: inline-flex;
+  height: max-content;
+  float: right;
+  justify-content: right;
+  margin-top: 75px;
+  margin-right: 10px;
+}
+
+#containerButtonBox h2{
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-top: 13px;
+}
+
+#TitleContainer{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 375px;
+  margin-top: 25px;
+}
+
+#TitleContainer1{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  float: left;
+  justify-content: left;
+  margin-right: 460px;
+}
+
+#TitleOfFunction{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 41px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+
+.addFoodItemBtn{
+  float: right;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  margin-top: 2px;
+  right: 0;
+
+}
+
+.addFoodItemBtn:hover{
+  background-color: #233381;
+}
+
+.addFoodItemBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+#filterSet{
+  background-color: none;
+  display: inline-flex;
+  align-items: center;
+  float: right;
+}
+
+#filterSet select{
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.829);
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-weight: 610;
+}
+
+#filterSet select:hover{
+  background-color: #652ee5;
+  box-shadow: 0px 15px 20px rgba(80, 46, 229, 0.4);
+  color: #fff;
+  /* transform: translateY(-7px); */
+}
+
+
+.tableFoodItem{
+    width: 1500px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 35px;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+.tableFoodItem th,td{
+    font-family: Segoe UI;
+    font-size: 25px;
+    padding: 20px;
+    border: solid;
+    border-color: #19224D;
+    border-width: 5px;
+    
+}
+
+.tableFoodItem th{
+  background-color: rgb(184, 184, 184);
+  text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tableFoodItem td{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 530;
+  
+}
+
+#foddItem_th_name{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.tableFoodItem tbody tr:hover{
+  background-color: rgb(223, 223, 223);
+}
+
+.tableFoodItem .editBtn1{
+  border: none;
+  background-color: #00A156;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.tableFoodItem .editBtn1:hover{
+  background-color: #006E3B;
+}
+
+.tableFoodItem .deleteBtn1{
+  border: none;
+  background-color: #FF4D4D;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.tableFoodItem .deleteBtn1:hover{
+  background-color: #B50000;
+}
+
+.generateFIReport{
+  height: 52px;
+  width: 48px;
+  cursor: pointer;
+  color: white;
+  background-color: #585858;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.generateFIReport:hover{
+  background-color: #2c2c2c;
+}
+
+.generateFIReport button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+
+
+
+
+/*------------------------------------------------------------------CSS For FoodItemDetails.js*/
+.FoodItemDetails_container{
+  background-color: white;
+  float: right;
+  width: 1500px;
+  margin-right:37px;
+  margin-Top:80px;
+  border-radius: 15px;
+  text-align: center;
+  color: #19224D;
+}
+
+.FoodItemDetails_container h4{
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.FoodItemDetails_container .row{
+  display: inline-block;
+}
+
+#FoodItemEdit_imgContainer{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+}
+
+.FoodItem_activator{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+
+
+/*---------------------------------------------------------CSS for FoodItem Edit Page*/
+.FoodItemEdit_Updatedetails{
+  background-color: white;
+  width: 1200px;
+  margin-Top:100px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #19224D;
+  margin: 0 auto;
+}
+
+
+.FoodItemEdit_Updatedetails .containerEdit{
+  background-color: none;
+  display: inline-flex;
+}
+
+
+
+.FoodItemEdit_Updatedetails h4{
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.FoodItemEdit_Updatedetails .row{
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#FoodItemEdit_imgContainer{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-right: 50px;
+}
+
+.FoodItemEdit_Updatedetails button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.FoodItemEdit_Updatedetails button:hover{
+  background-color: #FFFFFF;
+  color: Black;
+  border: solid;
+  border-color: black;
+}
+
+.FoodItemEdit_Updatedetails button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.FoodItemEdit_Updatedetails .col1{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.FoodItemEdit_Updatedetails .col2{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#FIAbout{
+  background-color: none;
+  margin-left: 350px;
+  margin-top: 100px;
+}
+
+#FoodItemEditDetailContainer{
+  background-color: #FFFFFF;
+  width: 1200px;
+  margin: 0 auto;
+  height: max-content;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#FoodItemEditDetailContainer h1{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+/*-------------------------------------------------------------CSS For ADD POPup.js*/
+#container_addFoodItem_POPUP{
+  margin-top: 30px;
+  background-color: white;
+  height: max-content;
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  height: max-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#container_addFoodItem_POPUP img{
+  width: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 120px;
+}
+
+#container_addFoodItem_POPUP .closeBtnContainer{
+  background-color: red;
+}
+
+#container_addFoodItem_POPUP .closeBtnContainer .close{
+  float: right;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(114, 114, 114);
+  margin-top: -20px;
+}
+
+#container_addFoodItem_POPUP .imgContainer{
+  background-color: none;
+}
+
+#container_addFoodItem_POPUP .formContainer{
+
+  height: max-content;
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  color: #707070;
+}
+
+#container_addFoodItem_POPUP .addItem_h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+#uploadcontainer{
+  margin-top: 30px;
+}
+
+#container_addFoodItem_POPUP .addItem_form_group{
+  margin-bottom: 15px;
+  display: grid;
+  font-weight: 700;
+  
+}
+
+#container_addFoodItem_POPUP .addItem_form_group label{
+  color: rgb(71, 71, 71);
+
+}
+
+#container_addFoodItem_POPUP .addItem_input{
+  width: 450px;
+  height: 40px;
+  font-weight: 700;
+  color: #707070;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: #E3E3E3;
+}
+
+#addPopUpBtnContainer{
+  background-color: none;
+  height: max-content;
+  float: right;
+}
+
+.FoodItemDemo_Btn{
+  width: 100px;
+  height: 40px;
+  background-color: #ff950a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+#container_addFoodItem_POPUP .addItem_Btn{
+  width: 140px;
+  height: 40px;
+  background-color: #00A156;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#container_addFoodItem_POPUP .addItem_Btn:hover{
+  background-color: #006E3B;
+}
+
+#container_addFoodItem_POPUP .closeBtn{
+  width: 140px;
+  height: 40px;
+  background-color: #8a8a8a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+#container_addFoodItem_POPUP .closeBtn:hover{
+  background-color: #6b6b6b;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------CSS For Update POPup.js*/
+#container_addFoodItemEdit_POPUP{
+  margin-top: 30px;
+  background-color: white;
+  height: max-content;
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  height: max-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#container_addFoodItemEdit_POPUP img{
+  width: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 120px;
+}
+
+#container_addFoodItemEdit_POPUP .closeBtnContainer{
+  background-color: red;
+}
+
+#container_addFoodItemEdit_POPUP .closeBtnContainer .close{
+  float: right;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(114, 114, 114);
+  margin-top: -20px;
+}
+
+#container_addFoodItemEdit_POPUP .imgContainer{
+  background-color: none;
+}
+
+#container_addFoodItemEdit_POPUP .formContainer{
+
+  height: max-content;
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  color: #707070;
+}
+
+#container_addFoodItemEdit_POPUP .addItem_h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+#container_addFoodItemEdit_POPUP #uploadcontainer{
+  margin-top: 30px;
+}
+
+#container_addFoodItemEdit_POPUP .addItem_form_group{
+  margin-bottom: 15px;
+  display: grid;
+  font-weight: 700;
+  
+}
+
+#container_addFoodItemEdit_POPUP .addItem_form_group label{
+  color: rgb(71, 71, 71);
+
+}
+
+#container_addFoodItemEdit_POPUP .addItem_input{
+  width: 450px;
+  height: 40px;
+  font-weight: 700;
+  color: #707070;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: #E3E3E3;
+}
+
+#container_addFoodItemEdit_POPUP .addItem_Btn{
+  width: 150px;
+  height: 40px;
+  background-color: #00A156;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  float: right;
+}
+
+#container_addFoodItemEdit_POPUP .addItem_Btn:hover{
+  background-color: #006E3B;
+}
+
+#UpdatePopUpButtons {
+  background-color: none;
+  float: right;
+  display: inline-flex;
+}
+
+#UpdatePopUpButtons .closeBtn{
+  width: 140px;
+  height: 40px;
+  background-color: #8a8a8a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+#UpdatePopUpButtons .closeBtn:hover{
+  background-color: #6b6b6b;
+}
+
+
+
+
+
+
+/*-----------------------------------------------CSS For DashBoad*/
+
+.dashHeader2{
+  display: inline-block;
+  margin-left: 34%;
+  margin-right: auto;
+  background-color: none;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.dashHeader2 h1{
+  font-size: 70px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.dashHeader2 span{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dashHeader2 img{
+  width: 900px;
+  margin-left: 0px;
+}
+
+
+
+
+/*-----------------------------------------------CSS For SideBar.js*/
+
+.dash_container{
+  margin: 0 auto;
+  background-color: none;
+  width: max-content;
+  height: 100%;
+  position: fixed;
+  top: 70px;
+}
+
+.dashbtnbox #date{
+  margin-top: 80px;
+  color: #707070;
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: 700;
+}
+
+
+.dashbtnbox{
+  border:  none;
+  background-color: white;
+  width: 340px;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  
+}
+
+.dashbtnbox button{
+  position: relative;
+  width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #19224D;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.dashbtnbox button:hover{
+  background-color: #233381;
+}
+
+.dashbtnbox h1{
+  font-weight: 800;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(114, 114, 114);
+}
+
+
+
+
+
+/*--------------------------------------------------------------------CSS For Footer.js*/
+.footer{
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #707070;
+}
+
+.footer .copyright{
+  background-color: none;
+  width: max-content;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .copyright h1{
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 15px;
+  color: #707070;
+}
+
+.footer .copyright a{
+  text-decoration: none;
+}
+
+/* -----------------------------------------------------------------------End of the Yasiru Panduka's CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------Start Harshana Rajapaksha's CSS */
+
+/*-------------------------POPUP----------------------------*/
+.DiscountcontainerPopup .addDisPopcloseBtn button{
+  margin-right: 450px;
+  margin-top: 10px;
+  background-color: rgb(177, 177, 177);
+  color: rgb(255, 255, 255);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.DiscountcontainerPopup .addDisImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DiscountcontainerPopup .editDisImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DiscountcontainerPopup .addDisImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 370px;
+  height: 290px;
+  display: block;
+}
+
+.DiscountcontainerPopup .editDisImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 480px;
+  height: 270px;
+  
+}
+
+.DiscountcontainerPopup .addDisTitle{
+  font-weight: 1000;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.DiscountcontainerPopup #addBtn{
+   width: 130px;
+  margin-left: 10px;
+   background-color: #0094F6;
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: 17px;
+  
+ }
+
+ 
+ .DiscountcontainerPopup #demoBtn{
+  width: 130px;
+  background-color: #eb9800;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+ .DiscountcontainerPopup #updateBtn{
+   width: 130px;
+  margin-left: 340px;
+   background-color: #0094F6;
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: 17px;
+ }
+
+/*------------------------------------------------------------- Buttons */
+.BUTTONS{
+  display: inline-flex;
+  float: right;
+}
+
+
+/*------------------------------------------------------------- Buttons */
+
+
+/*-------------------------POPUP----------------------------*/
+
+
+
+
+
+/*--------------------------FORM-----------------------------*/
+/* .displayDetails{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* .Form{
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+ */
+
+ .MainDiv{
+   background-color: hsl(0, 0%, 100%);
+   width: 75%;
+   height: 100%;
+   display: inline-flex;
+   margin-top: 4.8%;
+   margin-left: 400px;
+   border-radius: 20px;
+ }
+
+ .imageDetailsPage{
+   background-color: #ffffff;
+   margin-top: 10%;
+   margin-left: 5%;
+   height: 120%;
+
+ }
+
+#DiscountForm{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 61px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    width: 25%;
+    height: 10%;
+    border-radius: 17px;
+ }
+
+
+ #discountName{
+  font-size: 50px;
+  color: #f89d13;
+  text-align: right;
+  font-weight: 700;
+  font-family: fantasy;
+}
+
+#input{
+  background-color: #E1E1E1;
+  border-radius: 10px;
+  border-color: #09B3FF;
+  border-style: solid;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 0.2px solid #09B3FF;
+  opacity: 100%;
+
+}
+/*--------------------------FORM-----------------------------*/
+
+
+
+
+
+/*-------------------------------TABLE---------------------------------*/
+#EditDis{
+   background-color: #0094F6;
+   color: white;
+   border: none;
+   font-weight: 700;
+ }
+
+ #pdfGenerate{
+  
+   color: rgb(255, 255, 255);
+   font-family: sans-serif;
+   margin-left: 10px;
+
+ }
+
+ 
+.PDFBtn{
+  background-color: #ff6464;
+  border: none;
+  color: white;
+  margin-top: 6px;
+  float: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.PDFBtn:hover{
+  background-color: #c52b2b;
+}
+
+
+ #distabhomeid{
+   background-color: none;
+   margin-top: 50px;
+ }
+
+ .DiscountTableHome .containerHome{
+      width:100%;
+      height: max-content;
+      background-color:none;
+      padding-top: 20px;
+      padding-bottom: 61px;
+    }
+
+
+
+
+.UPDATEBtn{
+        background-color: #0094F6;
+        border: none;
+        color: white;
+        margin-top: 6px;
+        float: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        width: 180px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+      
+      .UPDATEBtn:hover{
+        background-color: #016EB7;
+      }
+
+
+
+      .DiscountTableHome  .th1{
+  padding-top: 1%;
+  background-color: rgb(255, 255, 255);
+  color: #19224D;
+  margin-left:center;
+}
+
+
+.DiscountTableHome{
+          width: 1500px;
+          height: 70%;
+          margin-top: 55px;
+          margin-bottom: 2px;
+          margin-left: 375px;
+          margin-right: 0px;
+          border-collapse: collapse;
+          background-color: #ffffff;
+      }
+
+      .DiscountTableHome th,td{
+          font-family: Segoe UI;
+          font-size: 25px;
+          padding: 15px;
+          text-align: left;
+      }
+
+      .DiscountTableHome #tab_th{
+        border: none;
+      }
+
+      .DiscountTableHome .tab_td{
+        border: none;
+      }
+
+      .DiscountTableHome tr:hover{
+        background-color: #ececec;
+      }
+
+      .DiscountTableHome th{
+        background-color: #19224D;
+          font-weight: 700;
+          font-size: 20px;
+          color: rgb(255, 255, 255);
+      }
+
+    
+      #discountNumber{
+        padding-left: 50px;
+      }
+
+      .DiscountTableHome td{
+        text-align: left;
+        font-size: 18px;
+        font-weight: 530;;
+      }
+
+      #deletetBtn{
+          background-color: #ff6464;
+          color: white;
+          border: none;
+          font-weight: 700;
+        }
+       
+     /*-------------------------------TABLE---------------------------------*/
+
+
+     /* -----------------------------------------------------------------------End of the Harshana Rajapaksha's CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* -----------------------------------------------------------------------Start of the Ravindu Rasanga's CSS */
+
+   /*-----------------------------Add New Cost-------------------------------*/
+
+   .addCostImg{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    margin-top: 2px;
+    width: 50%;
+    height: 50%;
+    display: block;
+  }
+/*-----------------------------Add New Cost-------------------------------*/
+/*-----------------------------Add  Cost popup-------------------------------*/
+
+.addFormBtn{
+  display: inline-flex;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#ReportBtn{
+  width: max-content;
+}
+
+.addFormBtn button{
+  margin-left: 2%;
+  margin-right: 1%;
+  width: 120px;
+  height: auto;
+}
+
+
+  #CostaddBtn{
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 0;
+  }
+
+  .CostingAutoFillBt{
+    color: white;
+    background-color:#e76c07;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  .addCostTitle{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .addCosPopcloseBtn button{
+    margin-right: 450px;
+    margin-top: 10px;
+    background-color: rgb(177, 177, 177);
+    color: rgb(255, 255, 255);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+/*-----------------------------Add Cost popup-------------------------------*/
+
+/*-----------------------------Table-------------------------------*/
+
+.containerHome{
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-top: -60px;
+} 
+
+.addCosBtn{
+  margin-top: 60px;
+  float: right;
+  margin-right: 40px;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+}
+
+.addCosBtn:hover{
+  background-color: #233381;
+}
+
+.addCosBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+/*-----------------------------Table-------------------------------*/
+
+
+
+ /*-----------------------------CSS For cost edit form read only.js-------------------------------*/
+
+ .display{
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Form{
+      background-color: rgb(255, 255, 255);
+      width: 35%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      margin-top: 100px;
+    }
+    #updateCos{
+        background-color: white;
+        padding-top: px;
+        padding-bottom: 61px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      
+    }
+
+    #updateBtn1{
+    width: 130px;
+    margin-left: 5%;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+  }
+
+  #updateBt2{
+    width: 130px;
+    margin-left: 70%;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+  }
+ /*-----------------------------CSS For cost edit form read only.js-------------------------------*/
+
+      /*-----------------------------CSS For cost edit form-------------------------------*/
+
+
+ #UpdateButDiv{
+    width: 130px;
+    color: white;
+   display: inline;
+   margin-left: 23%;
+   font-weight: 600;
+    font-size: 17px;
+
+ }
+ 
+
+ .addUpTitle{
+    font-weight: 1000;
+    text-align: left;
+    font-size: 30px;
+  }
+
+/*-----------------------------CSS For cost edit form-------------------------------*/
+
+    /*-----------------------------CSS For cost details form-------------------------------*/
+
+
+.CostDetailsCont{
+
+  width:1000px;
+  margin-top: 0px;
+  margin-left:400px;
+  color:black;
+  display: block;
+  background-color: whitesmoke;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-bottom: 50px;
+}
+
+.CostDetailsInput{
+  display: block;
+
+}
+
+#detailInput{
+  margin-left: 5px;
+  margin-bottom: 2%;
+}
+
+.CosDeteBackBut{
+  width: 130px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.CosDeteBackButDiv{
+  margin-left: auto;
+  width: max-content;
+}
+
+     /* ---------------------------Validate Message'S CSS */
+
+.validatealert{
+  color: red;
+  text-align: left;
+}
+
+
+     /* -----------------------------------------------------------------------End of the Ravindu Rasanga's CSS */
+
+
+
+
+
+
+
+
+
+
+     /* -----------------------------------------------------------------------Start of the Sudhari Sadamini's CSS */
+
+  /*-------------------------------TABLE---------------------------------*/
+  .InventrycontainerHome{
+    width:100%;
+    height: max-content;
+    background-color:none;
+    padding-top: 20px;
+    padding-bottom: 61px;
+  }
+
+.navContainer{
+position: fixed;
+width: 100%;
+}
+
+.addInventoryBtn{
+  float: right;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  margin-top: -50px;
+  right: 0;
+  margin-right: 20px;
+
+}
+
+.addInventoryBtn:hover{
+  background-color: #233381;
+}
+
+.addInventoryBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.InventryaddItemBtn{
+background-color: #6ae990;
+border: none;
+color: white;
+margin-top: 6px;
+float: center;
+text-align: center;
+font-size: 19px;
+font-weight: 700;
+width: 180px;
+height: 40px;
+cursor: pointer;
+border-radius: 6px;
+}
+
+.InventryaddItemBtn:hover{
+background-color: #32C15E;
+}
+
+/* .InventrytableHome .th8{
+padding-top: 1%;
+background-color:#19224D;
+color: #19224D;
+margin-left:center;
+}
+
+.InventrytableHome{
+width: 1500px;
+height: 70%;
+margin-top: 20px;
+margin-left: auto;
+margin-right: 10px;
+border-collapse: collapse;
+background-color: #ffffff;
+} */
+
+/* .InventrytableHome th,td{
+font-family: Segoe UI;
+font-size: 25px;
+padding: 15px;
+background-color: none;
+text-align: left;
+}
+
+.InventrytableHome tr:hover{
+background-color: #ececec;
+}
+
+.InventrytableHome th{
+background-color: #7c7c7c;
+font-weight: 700;
+font-size: 18px;
+color: rgb(0, 0, 0);
+}  */
+
+/* .InventrytableHome td{
+text-align: left;
+font-size: 16px;
+font-weight: 530;;
+} */
+
+.action{
+width: 260px;
+}
+/*-------------------------------TABLE---------------------------------*/
+
+
+ /*-------------------------UPDATE PAGE---------------------------------------*/
+
+ #editBtn{
+  background-color: #33D273;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+/*-------------------------DELETE------------------------------------------*/
+
+#deletetBtn{
+  background-color: #ff6464;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+/*---------------------------CSS For CreatePost.js--------------------------*/
+
+#InventryContainer_addItem_POPUP{
+  margin-top: 30px;
+  background-color: white;
+  height: max-content;
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#InventryContainer_addItem_POPUP img{
+  width: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 120px;
+}
+
+.InventryCloseBtnContainer{
+  background-color: red;
+}
+
+.InventryCloseBtnContainer .close{
+  float: right;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(114, 114, 114);
+  margin-top: -20px;
+}
+
+#InventryContainer_addItem_POPUP img{
+  width: 500px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ .InventryFormContainer{
+  height: max-content;
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 60px;
+  color: #707070;
+}
+
+.InventryAddItem_h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+#uploadcontainer{
+  margin-top: 30px;
+}
+
+.InventryAddItem_form_group{
+  margin-bottom: 15px;
+  display: grid;
+  font-weight: 700;
+  
+}
+
+.InventryAddItem_form_group label{
+  color: rgb(71, 71, 71);
+
+}
+
+.InventryAddItem_input{
+  width: 450px;
+  height: 40px;
+  font-weight: 700;
+  color: #707070;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 2px;
+  border-color: #E3E3E3;
+}
+
+/* ---Close Button---- */
+  .InventryClose_Btn{
+    background-color: #bd2d2d;
+    color: white;
+    float: right;
+  }
+
+  .InventryClose_Btn:hover{
+    background-color: #bd2d2d;
+  }
+/* ---End Close Button---- */
+
+
+/* ---Demo Button---- */
+  .InventryDemo_Btn{
+    color: white;
+    background-color:#e76c07;
+  }
+
+  .InventryDemo_Btn:hover{
+    background-color: #e76c07;
+  }
+/* ---End Demo Button---- */
+
+
+/* ---Save Button---- */
+  .InventryAddItem_Btn{
+    background-color: #00A156;
+    color: white;
+    float: right;
+  }
+
+  .InventryAddItem_Btn:hover{
+    background-color: #006E3B;
+  }
+/* ---End Save Button---- */
+
+
+/* ---Div Button---- */
+ .Inventory_AddPopUpBtn{
+  display: inline-flex;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+} 
+
+.Inventory_AddPopUpBtn button{
+  margin-left: 1%;
+  margin-right: 3%;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  
+  border: none;
+  border-radius: 5px;
+}
+/* ---End Div Button---- */
+
+
+.InventryvalidateAlert{
+  color: red;
+  text-align: left;
+}
+
+/*---------------------------End CreatePost.js--------------------------*/
+
+/*--------------------------------CSS for Product Edit Page-----------------*/
+
+.InventryUpdatedetails_container{
+  background-color: white;
+  width: 1500px;
+  height: 780px;
+  margin-Top:80px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #19224D;
+  display: block;
+  float: right;
+  margin-right:35px;
+}
+
+.InventryContainerEdit{
+  background-color: none;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+#InventryImgContainerEdit{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 200px;
+  margin-right: 5px;
+}
+
+.InventryContainerTable {
+  display: block;
+  margin-right: 200px;
+  margin-left: 5px;
+  margin-top: 0px;
+  width: 1000px;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 50px;
+}
+
+.InventryUpdatedetails_container h3{
+  font-weight: 800;
+  padding-top: 25px;
+}
+
+#InventryEditPageTable {
+  border: none;
+  width: 500px;
+  height: 300px;
+}
+
+.InventryTableRow{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.InventryTableCol{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+}
+
+#InventryImgContainerEdit img{
+  width: 500px;
+}
+
+.InventryTableBtn button{
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
+  /* margin-top: 250px;
+  margin-bottom: 20px; */
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+#InventryTableEditBtn{
+  margin-top: 500px;
+  margin-bottom: 20px;
+}
+
+.InventryContainerEdit a{
+  text-decoration: none; 
+}
+
+.InventryTableBtn button:hover{
+  background-color: #FFFFFF;
+  color: Black;
+  border: solid;
+  border-color: black;
+}
+
+.InventryTableBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.InventryUpdateItem_Btn{
+  background-color: #00A156;
+  color: white;
+  float: right;
+  display: inline-flex;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.InventryUpdateItem_Btn:hover{
+  background-color: #006E3B;
+}
+/*---------------------------End Edit Post.js--------------------------*/
+
+/* -----------------------------------------------------------------------End of the Sudhari Sadamini's CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------Start of the Denura Mudalige's CSS */
+
+
+/*------------------------------CSS For Table---------------------------------*/
+
+#tableCUS{
+  margin-top: 15px;
+}
+
+#CusManHome{
+  background-color: none;
+  padding-bottom: 40px;
+}
+
+#cusMan_th,
+#cusMan_td{
+  font-family: Segoe UI;
+  font-size: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: #19224D;
+  border-width: 5px;
+}
+
+#cusMan_th{
+
+  background-color: rgb(184, 184, 184);
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#cusMan_td{
+font-weight: 530;
+text-align: center;
+font-size: 17px;
+font-weight: 530;
+
+}
+
+/* tbody tr:hover{
+background-color: #242e61;
+} */
+
+.editBtn1{
+border: none;
+background-color: #00A156;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+font-weight: 700;
+margin: 4px 2px;
+width: 75px;
+height: 32px;
+cursor: pointer;
+color: white;
+border-radius: 5px;
+}
+
+.editBtn1:hover{
+background-color: #006E3B;
+}
+
+.deleteBtn1{
+border: none;
+background-color: #FF4D4D;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-weight: 700;
+margin: 4px 2px;
+width: 75px;
+height: 32px;
+cursor: pointer;
+color: white;
+border-radius: 5px;
+}
+
+.deleteBtn1:hover{
+background-color: #B50000;
+} 
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------CSS for Product Edit Page-----------------*/
+
+.CustomerUpdatedetails_container{
+  background-color: white;
+  width: 1500px;
+  height: 780px;
+  margin-Top:65px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #19224D;
+  display: block;
+  float: right;
+  margin-right:35px;
+}
+
+.CustomerContainerEdit{
+  background-color: none;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+#CustomerImgContainerEdit{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 200px;
+  margin-right: 5px;
+}
+
+#CustomerImgContainerEdit img{
+height: 600px;
+width: 500px;
+}
+
+.CustomerContainerTable {
+  display: block;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 0px;
+  width: 1000px;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 50px;
+}
+
+.CustomerUpdatedetails_container h3{
+  font-weight: 800;
+  padding-top: 25px;
+}
+
+#CustomerEditPageTable {
+  border: none;
+  width: 550px;
+  height: 300px;
+}
+
+.CustomerTableRow{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.CustomerTableCol{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+}
+
+#CustomerImgContainerEdit img{
+  width: 500px;
+}
+
+.CustomerTableBtn button{
+  display: block;
+  margin-left: auto;
+  margin-right: 300px;
+  /* margin-top: 250px;
+  margin-bottom: 20px; */
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+#CustomerTableEditBtn{
+  margin-top: 500px;
+  margin-bottom: 20px;
+}
+
+.CustomerContainerEdit a{
+  text-decoration: none; 
+}
+
+.CustomerTableBtn button:hover{
+  background-color: #FFFFFF;
+  color: Black;
+  border: solid;
+  border-color: black;
+}
+
+.CustomerTableBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.CustomerUpdateItem_Btn{
+  background-color: #00A156;
+  color: white;
+  float: right;
+  display: inline-flex;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.CustomerUpdateItem_Btn:hover{
+  background-color: #006E3B;
+}
+/*---------------------------End Edit Post.js--------------------------*/
+
+
+
+/* -----------------------------------------------------------------------End of the Denura Mudalige's CSS */
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------Start of the Rasindu Inusara's CSS*/
+
+/* ------------------------------------------------------------------Table CSS */
+
+.staffTableContainer{
+  background-color: none;
+  padding-bottom: 35px;
+}
+
+#TitleContainerStaff{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 375px;
+  margin-top: 55px;
+}
+
+#TitleOfFunctionStaff{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2
+  70px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.StaffAdd{
+  margin-top: -40px;
+  float: right;
+  margin-right: 40px;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.staffLink{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.StaffAdd:hover{
+  background-color: #233381;
+}
+
+.StaffAdd button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.StaffList{
+  margin-top: -40px;
+  float: right;
+  margin-right: 40px;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.StaffList:hover{
+  background-color: #233381;
+}
+
+.StaffList button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.tableStaffItem{
+  width: 1500px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 35px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+.tableStaffItem th,td{
+  font-family: Segoe UI;
+  font-size: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: #19224D;
+  border-width: 5px;
+  
+}
+
+.tableStaffItem th{
+background-color: rgb(184, 184, 184);
+text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tableStaffItem td{
+text-align: center;
+font-size: 17px;
+font-weight: 530;
+
+}
+
+.tableStaffItem #staffEdit{
+  border: none;
+  background-color: #00A156;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.tableStaffItem #staffEdit:hover{
+  background-color: #006E3B;
+}
+
+.tableStaffItem #staffDelete{
+  border: none;
+  background-color: #FF4D4D;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.tableStaffItem #staffDelete:hover{
+  background-color: #B50000;
+}
+
+
+
+
+/* ------------------------------------------------------------------Table CSS */
+
+
+
+/*-------------------------POPUP----------------------------*/
+.EmployeeContainerPopup .closeBtnContainer button{
+  margin-right: 450px;
+  margin-top: 10px;
+  background-color: rgb(177, 177, 177);
+  color: rgb(255, 255, 255);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.EmployeeContainerPopup .addStaffImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.EmployeeContainerPopup .addStaffImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.EmployeeContainerPopup .editStaffImg{
+  background-color: rgb(255, 255, 255);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.EmployeeContainerPopup .editStaffImg img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+
+.EmployeeContainerPopup .addStaffTitle{
+  font-weight: 1000;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.EmployeeContainerPopup #addStaffBtn{
+   width: 130px;
+   height: 40px;
+  margin-top: 10px;
+   background-color: #0094F6;
+   color: white;
+   border: none;
+   font-weight: 600;
+   font-size: 17px;
+   margin-left: 270px;
+    margin-right: auto;
+ }
+
+ /* .AddformMain{
+   background-color: red;
+ } */
+ .inputBoxes{
+  /* background-color: red; */
+  width: 180px;
+  margin-right: 215px;
+  margin-left: 0px;
+
+ }
+
+ .inputBoxes #inputBox{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+/*-------------------------POPUP----------------------------*/
+
+
+
+/*-----------------------------------edit button css -----------------------------*/
+
+.StaffTableBtn button{
+  display: block;
+  margin-left: auto;
+  /* margin-right: 30px; */
+   /* margin-top: 230px;
+   margin-bottom: 100px;  */
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+
+.StaffTableBtn {
+  margin-top: 400px;
+
+}
+  
+
+#StaffTableEditBtn{
+  /* margin-top: 100px; */
+  /* margin-bottom: 20px; */
+  margin-right: 170px;
+
+ 
+
+}
+
+
+.StaffTableBtn button:hover{
+  background-color: #FFFFFF;
+  color: Black;
+  border: solid;
+  border-color: black;
+}
+
+.StaffTableBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+
+
+.StaffTableBtn a{
+  text-decoration: none;
+
+}
+
+
+#staffbtn1{
+  margin-right: 170px;
+  margin-bottom: 300px;
+
+}
+
+
+
+.staffContainerupdatebox{
+  background-color: white;
+  width: 1000px;
+  height: 500px;
+  margin-Top:80px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: #19224D;
+  display: block;
+  float: right;
+  margin-right:300px;
+  margin-left: 20px;
+}
+
+.staffContainer{
+  background-color: none;
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+
+#StaffImgContainerEdit{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 200px;
+  margin-right: 5px;
+}
+
+
+
+
+
+/*-----------------------------------edit button css -----------------------------*/
+
+
+/*------------------------------------------------------------------------End of the Rasindu Inusara's CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------Start of the Ravindu Induwara's CSS */
+
+/* ------------------------------------------------------------------Table CSS */
+
+.payTableContainer{
+  background-color: none;
+  padding-bottom: 35px;
+}
+
+#TitleContainerpay{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 375px;
+  margin-top: 55px;
+}
+
+#TitleOfFunctionpay{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2
+  70px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.PayTotalViewBtn1{
+  margin-top: -40px;
+  float: right;
+  margin-right: 40px;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.distidi{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.PayTotalViewBtn1:hover{
+  background-color: #233381;
+}
+
+.PayTotalViewBtn1 button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.PayTotalViewBtn2{
+  margin-top: -40px;
+  float: right;
+  margin-right: 40px;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: 180px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.PayTotalViewBtn2:hover{
+  background-color: #233381;
+}
+
+.PayTotalViewBtn2 button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.tablePayItem{
+  width: 1500px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 35px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+.tablePayItem th,td{
+  font-family: Segoe UI;
+  font-size: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: #19224D;
+  border-width: 5px;
+  
+}
+
+.tablePayItem th{
+background-color: rgb(184, 184, 184);
+text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.tablePayItem td{
+text-align: center;
+font-size: 17px;
+font-weight: 530;
+
+}
+
+.tablePayItem #PayEdit{
+  border: none;
+  background-color: #00A156;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.tablePayItem #PayEdit:hover{
+  background-color: #006E3B;
+}
+
+.tablePayItem #PayDelete{
+  border: none;
+  background-color: #FF4D4D;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 4px 2px;
+  width: 75px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+
+.tablePayItem #PayDelete:hover{
+  background-color: #B50000;
+}
+
+
+
+
+/*-------------------------Payment Add FORM---------------------------*/
+.PaymentContainerForm{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.PaymentContainerForm input {
+  width: 170px;
+}
+
+.PaymentContainerForm label{
+  margin-top: 30px;
+}
+
+#cardExpire{
+  display: inline-flex;
+}
+
+#cardExpire input{
+  width: 80px;
+  margin-right: 30px;
+}
+
+#cardNum input{
+  width: 300px;
+}
+
+#PayCardNextBtn{
+  margin-top: 29px;
+}
+
+#PayCardNextBtn button {
+  width: 300px;
+  border-radius: 25px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.bgImg img {
+  width: 1920px;
+  height: 890px;
+
+}
+
+.bgImg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* .Form{
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  margin-top: 100px;
+}
+ */
+
+ #MainDivPayment{
+  background-color: black;
+  width: 100%;
+  position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+ .PaymentContainerFormMain{
+   background-color: rgb(27, 233, 0);
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin-top: 200px;
+  
+ }
+
+
+
+.PaymentContainerForm {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: px;
+    padding-bottom: 61px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+   
+ }
+
+ .PaymentContainerForm form{
+   background-color: none;
+  width: max-content;
+  padding-top: 20px;
+  margin-left: 200px;
+ }
+
+
+ 
+
+/*--------------------------Payment Add FORM-----------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------End of the Ravindu Induwara's CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/* -----------------------------------------------------------------------Responsivenes CSS Begin -----------------------------------------------------------------*/
+
+@media only screen and (max-width: 1440px) {
+
+   /* --------------------------------------------------------------------------Nav Bar CSS Begin -----------------------------------------------------------------*/
+
+   .container-fluid{
+    background-color: white;
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #707070;
+  }
+  
+  
+  .d-flex{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    background-color: none ;
+  }
+
+  .container-fluid img{
+    width: 230px;
+    height: 64px;
+  }
+  
+  #searchNav{
+    background-color: #E3E3E3;
+    color: #707070;
+    font-weight: 700;
+    border-color: #707070;
+  }
+  
+  #searchBtnNav{
+    background-color: #707070;
+    color: white;
+    font-weight: 700;
+    border: none;
+  }
+  
+    /* -----------------------------------------------------------------------Nav Bar  CSS End -----------------------------------------------------------------*/
+
+
+    /*-----------------------------------------------CSS For SideBar.js*/
+
+.dash_container{
+  margin: 0 auto;
+  background-color: none;
+  width: max-content;
+  height: 100%;
+  position: fixed;
+  top: 50px;
+}
+
+.dashbtnbox #date{
+  margin-top: 80px;
+  color: #707070;
+  text-align: center;
+  font-family: Segoe UI;
+  font-weight: 700;
+}
+
+
+.dashbtnbox{
+  border:  none;
+  background-color: white;
+  width: 255px;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  
+}
+
+.dashbtnbox button{
+  position: relative;
+  width: 235px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+
+    /*-----------------------------------------------CSS For SideBar End.js*/
+
+    /*--------------------------------------------------------------------CSS For Footer.js*/
+.footer{
+  height: 45px;
+}
+
+.footer .copyright{
+  background-color: none;
+  width: max-content;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    /*--------------------------------------------------------------------CSS For Footer End.js*/
+
+
+    .addCosBtn{
+      margin-top: 60px;
+      margin-right: 22px;
+      font-size: 13px;
+      width: 150px;
+      height: 45px;
+    }
+
+
+
+/* -----------------------------------------------------------------------Start of the Yasiru Panduka's CSS */
+
+.addFoodItemBtn{
+  margin-top: -40px;
+  margin-right: 22px;
+  font-size: 13px;
+  width: 140px;
+  height: 40px;
+}
+
+
+#TitleContainer{
+  margin-left: 286px;
+  margin-top: 35px;
+}
+
+#TitleContainer1{
+  margin-left: 286px;
+  margin-top: 55px;
+}
+
+#TitleOfFunction{
+  font-size: 30px;
+}
+
+
+.tableFoodItem{
+  width: 1140px;
+  margin-right: 18px;
+}
+
+.tableFoodItem .editBtn1{
+  font-size: 13px;
+}
+
+.tableFoodItem .deleteBtn1{
+  font-size: 13x;
+}
+
+.tableFoodItem th{
+  font-size: 16px;
+}
+
+.tableFoodItem td{
+  font-size: 15px;
+}
+
+
+
+
+
+.generateFIReport{
+  height: 52px;
+  width: 48px;
+  cursor: pointer;
+  color: white;
+  background-color: #585858;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.generateFIReport:hover{
+  background-color: #2c2c2c;
+}
+
+.generateFIReport button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+
+#FoodItemPrintBtn{
+  margin-top: 112px;
+  float: right;
+  margin-right: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  width: max-content;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #585858;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+#FoodItemPrintBtn:hover{
+  background-color: #2c2c2c;
+}
+
+#FoodItemPrintBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+#FoodItemPrintBtn img{
+  width: 35px;
+}
+
+#containerButtonBox{
+  background-color: none;
+  width: 1438px;
+  display: inline-flex;
+  height: max-content;
+  float: right;
+  justify-content: right;
+  margin-top: -110px;
+  margin-right: 10px;
+}
+
+#containerButtonBox h2{
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-top: 70px;
+}
+
+#TitleContainer{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  margin-left: 285px;
+  margin-top: 25px;
+}
+
+#TitleContainer1{
+  background-color: none;
+  width: max-content;
+  height: max-content;
+  float: left;
+  justify-content: left;
+  margin-right: 150px;
+}
+
+#TitleOfFunction{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 41px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+
+.addFoodItemBtn{
+  float: right;
+  border:solid;
+  border-color: white;
+  border-width: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  width: 120px;
+  height: 52px;
+  cursor: pointer;
+  color: white;
+  background-color: #19224D;
+  border-radius: 5px;
+  margin-top: 50px;
+  right: 0;
+
+}
+
+.addFoodItemBtn:hover{
+  background-color: #233381;
+}
+
+.addFoodItemBtn button:active{
+  color: #FFFFFF;
+  background: #858585;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+#filterSet{
+  background-color: none;
+  display: inline-flex;
+  align-items: center;
+  float: right;
+  margin-top: 50px;
+}
+
+#filterSet select{
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.829);
+  height: 40px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-weight: 610;
+}
+
+#filterSet select:hover{
+  background-color: #652ee5;
+  box-shadow: 0px 15px 20px rgba(80, 46, 229, 0.4);
+  color: #fff;
+  /* transform: translateY(-7px); */
+}
+
+/* ---------------------------------------------------------------------CSS For Developers*/
+
+#developersImgContainer{
+  float: right;
+  background-color: none;
+
+}
+
+#devImg{
+  margin-top: 85px;
+  width: 1200px;
+  height: 750px;
+}
+
+
+/* -----------------------------------------------------------------------Yasiru Panduka's CSS End*/
+
+/* -----------------------------------------------------------------------Start of the  Harshana CSS */
+
+.DiscountTableHome{
+  width: 1140px;
+  margin-right: 18px;
+  margin-top: 60px;
+}
+
+/* ---------------------------------------------------------------------- Harshana CSS End */
+
+/* -----------------------------------------------------------------------Start of the  Ravindu CSS  */
+
+
+/* -----------------------Cost Edit View CSS Start------------------------*/
+#updateCos{
+  width:1140px ;
+  height: 650px;
+  margin-left: 286px;
+  margin-top: 60px;
+  margin-right: 18px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px ;
+  border-radius: 15px;
+}
+
+#updateCosMainBox{
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+#updateCosTableBox{
+  width: 60% ;
+}
+
+#updateCosTableBox table{
+  width: 80px ;
+  height: 300px;
+}
+
+#updateCosImage{
+
+  width: max-content;
+  height: max-content;
+  margin-right: 3%;
+}
+
+#updateCosImage img{
+  width: 370px;
+
+}
+
+
+
+
+/*-----------------------------------------------CSS For DashBoad*/
+
+.dashHeader2{
+  display: inline-block;
+  margin-left: 28%;
+  margin-right: auto;
+  background-color: none;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.dashHeader2 h1{
+  font-size: 70px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.dashHeader2 span{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dashHeader2 img{
+  width: 900px;
+  margin-left: 0px;
+}
+
+
+
+
+#updateCos table{
+  width: 100%;
+}
+
+#updateCos h5{
+  padding-left: 15px;
+}
+
+#updateCos td, th{
+  border: 0px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+#updateCos tr{
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+
+#UpdateViewButDiv button{
+    margin-left: 10px;
+    width: 20%;
+    height: 30%;
+    margin-right: -0px;
+    float: right;
+}
+
+
+/* -----------------------Cost Edit View CSS End------------------------*/
+
+/* -----------------------Cost Details View CSS Start------------------------*/
+
+
+
+.CostDetailsCont{
+  width:1140px ;
+  height: 650px;
+  margin-left: 286px;
+  margin-top: 30px;
+  margin-right: 18px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px ;
+  border-radius: 15px;
+}
+
+#CosDetailsMainBox{
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+#costDetailsCon{
+  width: 60% ;
+}
+
+#costDetailsCon table{
+  width: 100% ;
+  height: 450px;
+}
+
+#CosDetailsImage{
+
+  width: max-content;
+  height: max-content;
+  margin-right: 3%;
+}
+
+#CosDetailsImage img{
+  width: 370px;
+
+}
+
+.CostDetailsCont table{
+  width: 100%;
+}
+
+.CostDetailsCont h5{
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.CostDetailsCont td, th{
+  border: 0px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.CostDetailsCont tr{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+
+
+.CosDeteBackButDiv button{
+    margin-left: 10px;
+    width: 100%;
+    height: 30%;
+
+    float: right;
+}
+/* -----------------------Cost Details View CSS End------------------------*/
+
+
+
+/* -----------------------------------------------------------------------End of the  Ravindu CSS  */
+
+
+
+
+/*-------------------------------------------------------------------------Start of the Ravindu Induwara  */
+.tablePayItem{
+  width: 1120px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 35px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+
+
+
+/*---------------------------------------------------------------------------start of the Rasindu Indusara*/
+
+.tableStaffItem{
+  width: 1120px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 35px;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+}
+
+
+}
